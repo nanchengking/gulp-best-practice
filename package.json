@@ -1,0 +1,28 @@
+{
+  "name": "gulp-best-practice",
+  "version": "1.0.0",
+  "description": "practice gulp ,jade",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nanchengking/gulp-best-practice.git"
+  },
+  "keywords": [
+    "gulp",
+    "jade",
+    "practice"
+  ],
+  "author": "nancheng",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nanchengking/gulp-best-practice/issues"
+  },
+  "homepage": "https://github.com/nanchengking/gulp-best-practice#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-jade": "^1.1.0"
+  }
+}
