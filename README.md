@@ -31,3 +31,20 @@ gulp jade
 body
 	color: $red;
 ```
+
+## 5.gulp watch监控实时变更
+
+```
+gulp.task('watch',function(){
+    gulp.watch('src/templates/**/*.jade',['jade']);
+    gulp.watch('src/js/**/*.js',['js']);
+    gulp.watch('src/sass/**/*.sass',['sass']);
+
+})
+```
+
+## 6.如果只执行gulp,会去寻找名字叫default的任务
+在这儿,就执行所有任务好了~
+```
+gulp.task('default',['js','sass','jade','watch'])
+```
